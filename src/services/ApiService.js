@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: '/api/proyectos.json',
+  baseURL: './api/proyectos.json',
 })
 export const fetchAllProyectos = async () => {
   try {

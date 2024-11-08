@@ -1,41 +1,46 @@
-# singular-pigeon-portfolio
+# Portafolio Singular Pigeon.
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es mi portafolio como desarrolladora frontend. Está construido con VueJs, Vue Router, Pinia, Bootstrap y SASS.
+**Puedes acceder [aqui✨](https://SingularPigeon.github.io/PortafolioSingularPigeon/)
+![](/src/assets/img/preview-portafolio.png)**
 
-## Recommended IDE Setup
+## 🛠️ Instalación
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1.- Clona el repositorio
 
-## Customize configuration
+```
+git clone http://github.com/SingularPigeon/singular-pigeon-portafolio.git
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
 
-### Compile and Hot-Reload for Development
+2.- Navega al directorio del proyecto
 
-```sh
+```
+cd PortafolioSingularPigeon
+```
+
+3.- Instala las dependencias
+
+```
+npm i
+```
+
+```
+npm i bootstrap
+```
+
+4.- Arranca la aplicación
+
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
+4.- Abre el proyecto en tu IDE de preferencia.
 
-```sh
-npm run build
-```
+## 👩🏽‍💻 Autora.
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+**- Desarolladora: [Paloma Rivera](https://github.com/SingularPigeon)**
 
-```sh
-npm run test:unit
-```
+## 🔑 Licencia
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](/LICENSE.md) para más detalles

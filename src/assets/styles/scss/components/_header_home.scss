@@ -1,0 +1,70 @@
+.header {
+  background-image: url('/src/assets/img/header-fondo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap {
+  perspective-origin: 50% 50%;
+  overflow: hidden; /* Ocultar contenido que se salga del contenedor */
+  position: relative; /* Asegurar que .wrap sea el contenedor de referencia */
+  height: 100vh;
+}
+.pigeon {
+  position: absolute;
+  bottom: -100vh;
+  transform-style: preserve-3d;
+  width: 200px;
+}
+
+$total: 12;
+@for $i from 1 through $total {
+  $scale: random(2) - 0.4;
+
+  .pigeon:nth-child(#{$i}) {
+    left: random(120) * 1% - 20;
+    animation: raise#{$i} 6 + random(20) + s linear infinite;
+    animation-delay: random(5) - 5 + s;
+    transform: scale(0.2 * $i - 0.6) rotate(random(360) + deg);
+    z-index: 2;
+    filter: blur($i - 6 + px);
+
+    @keyframes raise#{$i} {
+      to {
+        bottom: 150vh;
+        transform: scale(0.3 * $i - 0.6) rotate(random(360) + deg);
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  @for $i from 1 through $total {
+    .pigeon:nth-child(#{$i}) {
+      left: random(100) * 1% - 15%; // Reduce la posición horizontal
+      transform: scale(0.15 * $i - 0.5) rotate(random(360) + deg);
+      filter: blur(
+        $i - 4 + px
+      ); // Reduce el desenfoque para evitar distorsión en pantallas pequeñas
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  @for $i from 1 through $total {
+    .pigeon:nth-child(#{$i}) {
+      left: random(80) * 1% - 10%;
+      transform: scale(0.1 * $i - 0.4) rotate(random(360) + deg);
+      filter: blur($i - 3 + px);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  @for $i from 1 through $total {
+    .pigeon:nth-child(#{$i}) {
+      left: random(70) * 1% - 5%;
+      transform: scale(0.08 * $i - 0.3) rotate(random(360) + deg);
+      filter: blur($i - 2 + px);
+    }
+  }
+}

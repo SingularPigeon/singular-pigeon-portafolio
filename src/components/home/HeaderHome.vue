@@ -8,7 +8,7 @@ import NavBarHome from './NavBarHome.vue'
       <NavBarHome />
     </div>
 
-    <div class="wrap position-relative">
+    <header class="wrap position-relative">
       <img src="/src/assets/img/pigeon.png" alt="palomita" class="pigeon img-fluid" />
       <img src="/src/assets/img/pigeon.png" alt="palomita" class="pigeon img-fluid" />
       <img src="/src/assets/img/pigeon.png" alt="palomita" class="pigeon img-fluid" />
@@ -24,7 +24,7 @@ import NavBarHome from './NavBarHome.vue'
       <img src="/src/assets/img/pigeon.png" alt="palomita" class="pigeon img-fluid" />
       <img src="/src/assets/img/pigeon.png" alt="palomita" class="pigeon img-fluid" />
       <img src="/src/assets/img/pigeon.png" alt="palomita" class="pigeon img-fluid" />
-    </div>
+    </header>
   </div>
 </template>
 <style scoped></style>

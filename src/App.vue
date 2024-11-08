@@ -38,9 +38,9 @@ onMounted(() => {
   <div v-if="isLoading" :class="['loader', { fadeOut: isFading }]"></div>
   <div v-else>
     <NavBarApp v-if="!isHome" />
-    <div :class="fadeInClass">
+    <main :class="fadeInClass">
       <RouterView />
-    </div>
+    </main>
     <FooterComponent />
   </div>
 </template>

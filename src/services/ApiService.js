@@ -1,12 +1,11 @@
 import axios from 'axios'
 
-const api = axios.create({
+export const api = axios.create({
   baseURL: '/api/proyectos.json',
 })
 export const fetchAllProyectos = async () => {
   try {
     const response = await api.get()
-    console.log('Data traída:', response.data)
     return response.data
   } catch (error) {
     console.error('Error al traer la data', error)

@@ -7,7 +7,7 @@ const props = defineProps({
 })
 </script>
 <template>
-  <div class="container-fluid p-0 header-proyects overflow-hidden position-relative mb-5">
+  <header class="container-fluid p-0 header-proyects overflow-hidden position-relative mb-5">
     <div class="row">
       <img
         src="/src/assets/img/header-fondo.png"
@@ -18,5 +18,5 @@ const props = defineProps({
         <h2 class="title-proyects">{{ props.title }}</h2>
       </div>
     </div>
-  </div>
+  </header>
 </template>

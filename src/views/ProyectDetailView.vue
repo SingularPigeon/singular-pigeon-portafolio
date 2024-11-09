@@ -18,11 +18,11 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div class="container pt-5">
+  <main class="container pt-5">
     <div class="row mt-5">
       <DetailTopCard v-if="proyecto" :proyecto="proyecto" />
       <DetailBodyCard v-if="proyecto" :proyecto="proyecto" />
       <DetailFooterCard v-if="proyecto" :proyecto="proyecto" />
     </div>
-  </div>
+  </main>
 </template>

@@ -4,7 +4,7 @@ import HeaderApp from '@/components/app/HeaderApp.vue'
 </script>
 <template>
   <HeaderApp title="Proyectos" />
-  <div class="container">
+  <main class="container">
     <ProyectsList />
-  </div>
+  </main>
 </template>

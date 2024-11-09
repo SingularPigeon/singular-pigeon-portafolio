@@ -3,7 +3,7 @@ import HeaderApp from '@/components/app/HeaderApp.vue'
 </script>
 <template>
   <HeaderApp title="curiouser and curiouser" />
-  <div class="container">
+  <main class="container">
     <div class="row d-flex flex-row py-5">
       <div
         class="col-12 col-md-6 px-5 d-flex flex-column justify-content-center align-items-top pb-5"
@@ -96,5 +96,5 @@ import HeaderApp from '@/components/app/HeaderApp.vue'
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>

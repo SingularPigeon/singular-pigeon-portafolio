@@ -7,7 +7,12 @@ import { RouterLink } from 'vue-router'
       <div class="collapse navbar-collapse d-flex justify-content-center mt-4" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item fs-5">
-            <RouterLink class="nav-link" :to="{ name: 'proyectos' }">Proyectos</RouterLink>
+            <RouterLink class="nav-link" :to="{ name: 'frontend' }">Proyectos</RouterLink>
+          </li>
+          <li class="nav-item fs-5">
+            <RouterLink class="nav-link" :to="{ name: 'graphic-design' }"
+              >Diseño Gráfico
+            </RouterLink>
           </li>
           <li class="nav-item fs-5">
             <RouterLink class="nav-link" :to="{ name: 'sobre mi' }">Sobre mi</RouterLink>

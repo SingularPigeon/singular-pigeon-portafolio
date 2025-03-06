@@ -1,4 +1,8 @@
-import { fetchAllProyectos, fetchProyectosById } from '@/services/ApiService'
+import {
+  fetchAllProyectos,
+  fetchProyectosById,
+  fetchProyectosByCategory,
+} from '@/services/ApiService'
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
@@ -9,6 +13,16 @@ export const useProyectosStore = defineStore('Proyectos', () => {
   async function getProyectos() {
     try {
       const proyectosData = await fetchAllProyectos()
+      if (proyectosData) {
+        proyectos.value = proyectosData
+      }
+    } catch (error) {
+      console.error(error)
+    }
+  }
+  async function getProyectosByCategory(categoria) {
+    try {
+      const proyectosData = await fetchProyectosByCategory(categoria)
       if (proyectosData) {
         proyectos.value = proyectosData
       }
@@ -31,6 +45,7 @@ export const useProyectosStore = defineStore('Proyectos', () => {
     proyectos,
     proyecto,
     getProyectos,
+    getProyectosByCategory,
     getProyectoById,
   }
 })

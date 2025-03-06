@@ -55,8 +55,16 @@ onUnmounted(() => {
             >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" :to="{ name: 'proyectos' }" @click="visible = !visible"
+            <RouterLink class="nav-link" :to="{ name: 'frontend' }" @click="visible = !visible"
               >Proyectos</RouterLink
+            >
+          </li>
+          <li class="nav-item">
+            <RouterLink
+              class="nav-link"
+              :to="{ name: 'graphic-design' }"
+              @click="visible = !visible"
+              >Diseño Gráfico</RouterLink
             >
           </li>
           <li class="nav-item">

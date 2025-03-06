@@ -16,14 +16,19 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/proyectos',
-      name: 'proyectos',
+      path: '/frontend',
+      name: 'frontend',
       component: () => import('../views/ProyectsListView.vue'),
     },
     {
       path: '/detalle:id',
       name: 'proyecto-detalle',
       component: () => import('../views/ProyectDetailView.vue'),
+    },
+    {
+      path: '/graphicDesign',
+      name: 'graphic-design',
+      component: () => import('../views/GraphicDesignView.vue'),
     },
     {
       path: '/:pathMatch(.*)*',

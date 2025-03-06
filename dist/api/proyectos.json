@@ -2,8 +2,8 @@
   {
     "id": 1,
     "nombre": "Encuentra tu super héroe",
-    "imagen": "src/assets/img/preview-super-hero.png",
-    "imagenSecundaria": "/src/assets/img/super-hero-card-stats.png",
+    "imagen": "./img/preview-super-hero.png",
+    "imagenSecundaria": "./img/super-hero-card-stats.png",
     "descripcion": "Aplicación para encontrar a tu super héroe favorito",
     "tecnologias": ["HTML5", "CSS", "Bootstrap", "Javascript", "JQuery", "CanvasJS"],
     "objetivo": "Desarrollo de una aplicación dinámica que permita a los usuarios buscar un Super Héroe o Super Heroína y visualizar información referente al personaje buscado.",
@@ -23,8 +23,8 @@
   {
     "id": 2,
     "nombre": "¿Quién es ese pokemón?",
-    "imagen": "src/assets/img/preview-pokemon.png",
-    "imagenSecundaria": "/src/assets/img/pokemon-filtro.png",
+    "imagen": "./img/preview-pokemon.png",
+    "imagenSecundaria": "./img/pokemon-filtro.png",
     "descripcion": "Juego pokédex para descubrir pokemones",
     "tecnologias": ["HTML5", "CSS", "Bootstrap", "Vuejs", "Vue router", "Pinia"],
     "objetivo": "Crear una aplicación con temática de la serie Pokémon haciendo uso de la PokéAPI",
@@ -41,7 +41,7 @@
   {
     "id": 3,
     "nombre": "Tienda 32 bits",
-    "imagen": "src/assets/img/preview-tienda-32.png",
+    "imagen": "./img/preview-tienda-32.png",
     "descripcion": "Stock tienda 32 bits",
     "tecnologias": ["HTML5", "CSS", "Bootstrap", "Vuejs", "Vue router", "Pinia"],
     "objetivo": "Desarrollar de una aplicación SPA utilizando VueJS mediante la creación del proyecto con Vite, además la incorporación Pinia para controlar todos los datos de forma centralizada.",
@@ -57,7 +57,7 @@
   {
     "id": 4,
     "nombre": "Crud Usuarios",
-    "imagen": "src/assets/img/preview-usuarios.png",
+    "imagen": "./img/preview-usuarios.png",
     "descripcion": "Crear, leer, actualizar y eliminar usuarios",
     "tecnologias": ["HTML5", "CSS", "Bootstrap", "Vuejs", "Vue router", "Firebase"],
     "objetivo": "Crear un sistema que pueda crear un usuario, editar usuarios, eliminar usuarios y listar los usuarios",

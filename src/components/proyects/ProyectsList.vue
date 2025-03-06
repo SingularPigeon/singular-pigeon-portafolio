@@ -7,7 +7,7 @@ const proyectosStore = useProyectosStore()
 const proyectos = computed(() => proyectosStore.proyectos)
 
 onMounted(() => {
-  proyectosStore.getProyectos()
+  proyectosStore.getProyectosByCategory('frontend')
 })
 </script>
 <template>

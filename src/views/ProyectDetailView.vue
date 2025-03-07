@@ -4,7 +4,7 @@ import { onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import DetailTopCard from '@/components/proyects/DetailTopCard.vue'
 import DetailBodyCard from '@/components/proyects/DetailBodyCard.vue'
-import DetailFooterCard from '@/components/proyects/DetailFooterCard.vue'
+import DetailGraphicFooterCard from '@/components/graphicDesign/DetailGraphicFooterCard.vue'
 
 const route = useRoute()
 const proyectosStore = useProyectosStore()
@@ -22,7 +22,7 @@ onMounted(() => {
     <div class="row mt-5">
       <DetailTopCard v-if="proyecto" :proyecto="proyecto" />
       <DetailBodyCard v-if="proyecto" :proyecto="proyecto" />
-      <DetailFooterCard v-if="proyecto" :proyecto="proyecto" />
+      <DetailGraphicFooterCard v-if="proyecto" :proyecto="proyecto" />
     </div>
   </main>
 </template>

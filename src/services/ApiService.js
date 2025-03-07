@@ -27,12 +27,14 @@ export const fetchProyectosByCategory = async (categoria) => {
 export const fetchProyectosById = async (id) => {
   try {
     const proyectos = await fetchAllProyectos()
-    const proyecto = proyectos.find((proyecto) => proyecto.id === id)
-    if (!proyecto) {
-      throw new Error(`No se encontro el proyecto con id ${id}`)
+    for (const categoria in proyectos) {
+      const proyecto = proyectos[categoria].find((proyecto) => proyecto.id === id)
+      if (proyecto) {
+        return proyecto
+      }
     }
-    return proyecto
+    throw new Error(`No se encontró el proyecto con id ${id}`)
   } catch (error) {
-    console.error(`Error al traer el proyecyo con id, ${id}`, error)
+    console.error(`Error al traer el proyecto con id ${id}`, error)
   }
 }

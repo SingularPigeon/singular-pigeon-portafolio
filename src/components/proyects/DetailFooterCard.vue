@@ -9,11 +9,12 @@ defineProps({
 <template>
   <div class="card border-0 rounded-0 bg-transparent my-5 p-0 text-center">
     <img
-      v-if="proyecto.imagenSecundaria && proyecto.imagenSecundaria.length"
-      :src="proyecto.imagenSecundaria"
+      v-if="proyecto.imagen2 && proyecto.imagen2.length"
+      :src="proyecto.imagen2"
       class="card-img-top rounded-0 h-100 object-fit-cover shadow"
       :alt="proyecto.nombre"
     />
+
     <div class="card-body pt-4 d-flex justify-content-center gap-3 my-5">
       <a
         v-if="proyecto.github"

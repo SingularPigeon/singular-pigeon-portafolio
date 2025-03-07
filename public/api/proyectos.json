@@ -4,7 +4,7 @@
       "id": 1,
       "nombre": "Encuentra tu super héroe",
       "imagen": "./img/preview-super-hero.png",
-      "imagenSecundaria": "./img/super-hero-card-stats.png",
+      "imagen2": "./img/super-hero-card-stats.png",
       "descripcion": "Aplicación para encontrar a tu super héroe favorito",
       "tecnologias": ["HTML5", "CSS", "Bootstrap", "Javascript", "JQuery", "CanvasJS"],
       "objetivo": "Desarrollo de una aplicación dinámica que permita a los usuarios buscar un Super Héroe o Super Heroína y visualizar información referente al personaje buscado.",
@@ -25,7 +25,7 @@
       "id": 2,
       "nombre": "¿Quién es ese pokemón?",
       "imagen": "./img/preview-pokemon.png",
-      "imagenSecundaria": "./img/pokemon-filtro.png",
+      "imagen2": "./img/pokemon-filtro.png",
       "descripcion": "Juego pokédex para descubrir pokemones",
       "tecnologias": ["HTML5", "CSS", "Bootstrap", "Vuejs", "Vue router", "Pinia"],
       "objetivo": "Crear una aplicación con temática de la serie Pokémon haciendo uso de la PokéAPI",
@@ -75,27 +75,86 @@
   "graphicDesign": [
     {
       "id": 5,
-      "nombre": "Programa Festival de Egresos - Exit",
-      "imagen": "./img/programa-exit.png",
-      "descripcion": "Cuadríptico del programa de las obras del Festival Exit 2017",
+      "nombre": "Piezas gráficas Festival de Egresos - Exit",
+      "imagen": "./img/portada-exit.png",
+      "imagen2": "./img/programa-exit.png",
+      "imagen3": "./img/foto-programa-exit.jpg",
+      "imagen4": "./img/diplomas-exit.png",
+      "imagen5": "./img/pendon_exit.png",
+      "descripcion": "Gráficas para soporte impreso y digital del Festival Exit",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseñar un cuadríptico con la calendarización de las obras del Festival Exit 2017",
+      "objetivo": "Diseñar un cuadríptico, pendón, diplomas, invitación y gráficas para rrss del Festival Exit 2017",
       "requerimientos": [
         "El cuadriptico debe llevar portada con el nombre del festival, detalle de las obras a presentar, reseña del festival, ficha del equipo del teatro, logos de auspiciadores y media partners",
-        "El detalle de las obras debe incluir nombre, universidad que representa,fotografía,reseña, fecha, horario y sala en que se presenta"
+        "El detalle de las obras debe incluir nombre, universidad que representa,fotografía,reseña, fecha, horario y sala en que se presenta."
       ]
     },
     {
       "id": 6,
       "nombre": "Programa mensual de obras Teatro Sidarte ",
-      "imagen": "./img/impresos_sidarte2.png",
+      "imagen": "./img/portada-programa-mensual.png",
+      "imagen2": "./img/impresos_sidarte2.png",
       "descripcion": "Programa agosto-octubre 2017 de obras del Teatro sidarte",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
       "objetivo": "Diseñar un cuadríptico con la calendarización de las obras del Teatro Sidarte",
       "requerimientos": [
         "El cuadriptico debe llevar portada, detalle de las obras a presentar, valores,ficha del equipo del teatro, logos de auspiciadores y media partners",
-        "El detalle de las obras debe incluir nombre,fotografía,reseña, fecha, horario y sala en que se presenta"
+        "El detalle de las obras debe incluir nombre,fotografía,reseña, fecha, horario y sala en que se presenta."
       ]
+    },
+    {
+      "id": 7,
+      "nombre": "Gráficas redes sociales Teatro Sidarte",
+      "imagen": "./img/portada-graficas-web.png",
+      "imagen2": "./img/afiche-web-1.png",
+      "imagen3": "./img/afiche-web-2.png",
+      "imagen4": "./img/afiche-web-3.png",
+      "descripcion": "Diseño de gráficas para rrss",
+      "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
+      "objetivo": "Diseñar gráficas para la promoción de las obras en cartelera en redes sociales",
+      "requerimientos": [
+        "Diseño cuadrado, principalmete para Instagram con la foto de la obra, nombre, temporada, tiquetera, logos y página web del teatro."
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Gráficas para la compañia teatral La Mona Ilustre",
+      "imagen": "./img/portada-monailustre.png",
+      "imagen2": "./img/dossier-male.png",
+      "imagen3": "./img/impresos_male.png",
+      "descripcion": "Dossier, pendón e invitación para la obra de teatro Malè",
+      "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
+      "objetivo": "Diseñar dossier para la venta de funciones de la obra y diferentes piezas gráficas para promoción",
+      "requerimientos": [
+        "Dossier ensencialmente fotográfico, que destaque la escencia de la obra.",
+        "Pendón para instalar en el frontis del Teatro Municipal de Las Condes.",
+        "Invitación para campaña de mailing para el estrenola obra de teatro Malè."
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Diseño para albúm debut Reinvindicando Cigarras",
+      "imagen": "./img/portada-cigarras.png",
+      "imagen2": "./img/FRONT3.jpg",
+      "imagen3": "./img/back3B.jpg",
+      "imagen4": "./img/diseno-polimero-cigarras.png",
+      "descripcion": "Diseño de sobre, carátula y booklet del disco Reinvindicando Cigarras",
+      "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
+      "objetivo": "Diseñar sobre y caratula para disco",
+      "requerimientos": [
+        "El sobre debe tener en el frontis: foto y nombre del cantautor, nombre del disco y en la trasera debe tener el listado de canciones, logos de auspiciadores y partners.",
+        "La caratula debe tener el diseño de la cigarra."
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Logotipos para pymes",
+      "imagen": "./img/portada-logos.png",
+      "imagen2": "./img/logos.png",
+      "descripcion": "Diseño de diversos logotipos para pymes",
+      "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
+      "objetivo": "Diseño y rediseño de logotipos según los requerimientos de cada pyme.",
+      "requerimientos": []
     }
   ]
 }

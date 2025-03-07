@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="card border-0 rounded-0 bg-transparent mb-3">
+  <div class="card border-0 rounded-0 bg-transparent mb-3 h-100">
     <img
       :src="proyecto.imagen"
       class="card-img-top rounded-0 h-100 object-fit-cover shadow-sm"

@@ -133,28 +133,36 @@
     },
     {
       "id": 9,
-      "nombre": "Diseño para albúm debut Reinvindicando Cigarras",
+      "nombre": "Diseño para albúm debut",
       "imagen": "./img/portada-cigarras.png",
       "imagen2": "./img/FRONT3.jpg",
       "imagen3": "./img/back3B.jpg",
       "imagen4": "./img/diseno-polimero-cigarras.png",
-      "descripcion": "Diseño de sobre, carátula y booklet del disco Reinvindicando Cigarras",
+      "descripcion": "Diseño de sobre, carátula y booklet",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
       "objetivo": "Diseñar sobre y caratula para disco",
       "requerimientos": [
         "El sobre debe tener en el frontis: foto y nombre del cantautor, nombre del disco y en la trasera debe tener el listado de canciones, logos de auspiciadores y partners.",
-        "La caratula debe tener el diseño de la cigarra."
+        "La caratula debe tener la imagen de la hormiga y la cigarra."
       ]
     },
     {
       "id": 10,
       "nombre": "Logotipos para pymes",
       "imagen": "./img/portada-logos.png",
-      "imagen2": "./img/logos.png",
+      "imagen2": "./img/logo-gespro.png",
+      "imagen3": "./img/logo-colibri.png",
+      "imagen4": "./img/logo-pollos.png",
+      "imagen5": "./img/logo-fr.png",
       "descripcion": "Diseño de diversos logotipos para pymes",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseño y rediseño de logotipos según los requerimientos de cada pyme.",
-      "requerimientos": []
+      "objetivo": "Diseño y rediseño de logotipos según los requerimientos de cada cliente.",
+      "requerimientos": [
+        "Logo GESPRO: crear un isologo que reflejara confianza, cercanía y transparencia.",
+        "Logo Colibrí Design: la aplicación de un colibrí con formas geométricas en monocromía.",
+        "Logo Pollos Tobalaba: realizar un imagologo en monocromía con la imagen de un gallo y el nombre del comercio.",
+        "Logo Ingeniero Eléctrico:  realizar un imagologo con las iniciales de su nombre y el texto “soluciones eléctricas”."
+      ]
     }
   ]
 }

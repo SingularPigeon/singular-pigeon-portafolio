@@ -52,6 +52,10 @@ import HeaderApp from '@/components/app/HeaderApp.vue'
       <div class="col-12 col-md-6 d-flex flex-column px-5">
         <h3 class="ms-md-5 pe-md-4 mb-5">Habilidades</h3>
         <div class="row d-flex flex-wrap justify-content-start ms-md-5 pe-md-4">
+          <span class="col-auto badge bg-badge text-dark p-2 m-1">Photoshop</span>
+          <span class="col-auto badge bg-badge text-dark p-2 m-1">Illustrator</span>
+          <span class="col-auto badge bg-badge text-dark p-2 m-1">Premier</span>
+          <span class="col-auto badge bg-badge text-dark p-2 m-1">Figma</span>
           <span class="col-auto badge bg-badge text-dark p-2 m-1">HTML5</span>
           <span class="col-auto badge bg-badge text-dark p-2 m-1">CSS3</span>
           <span class="col-auto badge bg-badge text-dark p-2 m-1">Bootstrap</span>
@@ -64,10 +68,6 @@ import HeaderApp from '@/components/app/HeaderApp.vue'
           <span class="col-auto badge bg-badge text-dark p-2 m-1">Vitest</span>
           <span class="col-auto badge bg-badge text-dark p-2 m-1">Firebase</span>
           <span class="col-auto badge bg-badge text-dark p-2 m-1">Git</span>
-          <span class="col-auto badge bg-badge text-dark p-2 m-1">Figma</span>
-          <span class="col-auto badge bg-badge text-dark p-2 m-1">Photoshop</span>
-          <span class="col-auto badge bg-badge text-dark p-2 m-1">Illustrator</span>
-          <span class="col-auto badge bg-badge text-dark p-2 m-1">Premier</span>
         </div>
       </div>
     </div>

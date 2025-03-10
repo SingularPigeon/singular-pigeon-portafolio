@@ -75,9 +75,9 @@
   "graphicDesign": [
     {
       "id": 5,
-      "nombre": "Piezas gráficas Festival de Egresos - Exit",
+      "nombre": "Pendones programación Teatro Sidarte",
       "imagen": "./img/portada-exit.png",
-      "imagen2": "./img/programa-exit.png",
+      "imagen2": "./img/pendon_exit",
       "imagen3": "./img/foto-programa-exit.jpg",
       "imagen4": "./img/diplomas-exit.png",
       "imagen5": "./img/pendon_exit.png",
@@ -93,12 +93,18 @@
       "id": 6,
       "nombre": "Programa mensual de obras Teatro Sidarte ",
       "imagen": "./img/portada-programa-mensual.png",
-      "imagen2": "./img/impresos_sidarte2.png",
-      "descripcion": "Programa agosto-octubre 2017 de obras del Teatro sidarte",
+      "imagen2": "./img/programa-sep-oct-sidarte-2.png",
+      "imagen3": "./img/programa-sep-oct-sidarte.png",
+      "imagen4": "./img/programa-colectivo-zoo-1.png",
+      "imagen5": "./img/programa-colectivo-zoo-2.png",
+      "imagen6": "./img/programa-exit.png",
+      "imagen7": "./img/programa-exit-2.png",
+
+      "descripcion": "Programas 2017-2018 de obras del Teatro sidarte",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseñar un cuadríptico con la calendarización de las obras del Teatro Sidarte",
+      "objetivo": "Diseñar el programa mensual de las obras obras del Teatro Sidarte. Se realizararon cuadrípticos, trípticos y tarjetones para impresión",
       "requerimientos": [
-        "El cuadriptico debe llevar portada, detalle de las obras a presentar, valores,ficha del equipo del teatro, logos de auspiciadores y media partners",
+        "El cuadriptico debe llevar portada, detalle de las obras a presentar, valor de la entrada,ficha del equipo del teatro, logos de auspiciadores y media partners",
         "El detalle de las obras debe incluir nombre,fotografía,reseña, fecha, horario y sala en que se presenta."
       ]
     },

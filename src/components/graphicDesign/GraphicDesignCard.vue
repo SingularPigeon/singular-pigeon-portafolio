@@ -32,7 +32,7 @@ defineProps({
       </p>
 
       <RouterLink
-        :to="{ name: 'proyecto-detalle', params: { id: proyecto.id } }"
+        :to="{ name: 'graphic-detalle', params: { id: proyecto.id } }"
         class="btn btn-primary mt-3"
         >Detalles del proyecto</RouterLink
       >

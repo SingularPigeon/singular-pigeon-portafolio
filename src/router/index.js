@@ -31,6 +31,11 @@ const router = createRouter({
       component: () => import('../views/GraphicDesignView.vue'),
     },
     {
+      path: '/detalle-graphic:id',
+      name: 'graphic-detalle',
+      component: () => import('../views/GraphicDetailView.vue'),
+    },
+    {
       path: '/:pathMatch(.*)*',
       name: 'not-found',
       component: () => import('@/views/NotFoundView.vue'),

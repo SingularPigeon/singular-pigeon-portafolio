@@ -77,6 +77,7 @@
       "id": 5,
       "nombre": "Pendones cartelera Teatro Sidarte",
       "imagen": "./img/portada-exit.png",
+      "imagen1": "./img/portada-pendones.png",
       "imagen2": "./img/fotos-pendones.png",
       "imagen3": "./img/pendones-sidarte.png",
       "descripcion": "Pendones impresos en PVC para cartelera del Teatro Sidarte",
@@ -90,6 +91,7 @@
       "id": 6,
       "nombre": "Programa mensual de obras Teatro Sidarte ",
       "imagen": "./img/portada-programa-mensual.png",
+      "imagen1": "./img/portada-programa-mensual-2.png",
       "imagen2": "./img/programa-sep-oct-sidarte-2.png",
       "imagen3": "./img/programa-sep-oct-sidarte.png",
       "imagen4": "./img/programa-exit.png",
@@ -98,7 +100,7 @@
       "imagen7": "./img/programa-colectivo-zoo-2.png",
       "descripcion": "Programas cartelera mensula de obras del Teatro sidarte",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseñar un tr´ptico o cuadríptico con la cartelera de las obras del Teatro Sidarte",
+      "objetivo": "Diseñar un tríptico o cuadríptico con la cartelera de las obras del Teatro Sidarte",
       "requerimientos": [
         "El cuadriptico debe llevar portada, detalle de las obras a presentar, valores,ficha del equipo del teatro, logos de auspiciadores y media partners",
         "El detalle de las obras debe incluir nombre,fotografía,reseña, fecha, horario y sala en que se presenta."
@@ -108,6 +110,7 @@
       "id": 7,
       "nombre": "Gráficas redes sociales Teatro Sidarte",
       "imagen": "./img/portada-graficas-web.png",
+      "imagen1": "./img/portada-graficas-web-2.png",
       "imagen2": "./img/muerte-explosion-afiche.png",
       "imagen3": "./img/las-cosas-afiche.png",
       "imagen4": "./img/los-hape-teatro.png",
@@ -133,13 +136,14 @@
       "requerimientos": [
         "Dossier ensencialmente fotográfico, que destaque la escencia de la obra.",
         "Pendón para instalar en el frontis del Teatro Municipal de Las Condes.",
-        "Invitación para campaña de mailing para el estrenola obra de teatro Malè."
+        "Invitación para campaña de mailing para el estreno de obra de teatro Malè."
       ]
     },
     {
       "id": 9,
       "nombre": "Diseño para albúm debut",
       "imagen": "./img/portada-cigarras.png",
+      "imagen1": "./img/portada-disco.png",
       "imagen2": "./img/FRONT3.jpg",
       "imagen3": "./img/back3B.jpg",
       "imagen4": "./img/diseno-polimero-cigarras.png",
@@ -155,6 +159,7 @@
       "id": 10,
       "nombre": "Logotipos para pymes",
       "imagen": "./img/portada-logos.png",
+      "imagen1": "./img/portada-logos-2.png",
       "imagen2": "./img/logo-gespro.png",
       "imagen3": "./img/logo-colibri.png",
       "imagen4": "./img/logo-pollos.png",
@@ -168,6 +173,30 @@
         "Logo Pollos Tobalaba: realizar un imagologo en monocromía con la imagen de un gallo y el nombre del comercio.",
         "Logo Ingeniero Eléctrico:  realizar un imagologo con las iniciales de su nombre y el texto “soluciones eléctricas”."
       ]
+    },
+    {
+      "id": 11,
+      "nombre": "Diseño cuadernillos astrológicos para Miauastral",
+      "imagen": "./img/portada-astro.png",
+      "imagen1": "./img/portada-astro-2.png",
+      "imagen2": "./img/guias-astro.png",
+      "descripcion": "Diseño de guías y cuadernillos astrológicos",
+      "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
+      "objetivo": "Diseñar guías y cuadernillos de trabajo en astrología para venta online.",
+      "requerimientos": [
+        "Guías inspiración vapor wave en tamaño carta para formato PDF e impresión."
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Estampados",
+      "imagen": "./img/portada-estampados.png",
+      "imagen1": "./img/portada-estampados-2.png",
+      "imagen2": "./img/estampados.png",
+      "descripcion": "Estampados en vinilo transfer textil para merchandisign",
+      "tecnologias": ["Adobe Illustrator", "Adobe Photoshop", "GreatCut-S"],
+      "objetivo": "Estampar artículos de merchandisign con logos y frases de campaña, como poleras y bolsas de crea",
+      "requerimientos": ["Estampados bicolor en vinilo textil"]
     }
   ]
 }

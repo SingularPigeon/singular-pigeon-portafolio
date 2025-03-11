@@ -44,14 +44,14 @@ onUnmounted(() => {
         :class="visible ? 'show' : ''"
         id="navbarTogglerApp"
       >
-        <ul class="navbar-nav">
+        <ul class="navbar-nav bg-custom col-3 rounded-3 mt-2 ps-2">
           <li class="nav-item">
             <RouterLink
               class="nav-link"
               aria-current="page"
               :to="{ name: 'home' }"
               @click="visible = !visible"
-              >Home</RouterLink
+              >Inicio</RouterLink
             >
           </li>
           <li class="nav-item">

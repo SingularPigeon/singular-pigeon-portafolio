@@ -75,18 +75,15 @@
   "graphicDesign": [
     {
       "id": 5,
-      "nombre": "Pendones programación Teatro Sidarte",
+      "nombre": "Pendones cartelera Teatro Sidarte",
       "imagen": "./img/portada-exit.png",
-      "imagen2": "./img/pendon_exit",
-      "imagen3": "./img/foto-programa-exit.jpg",
-      "imagen4": "./img/diplomas-exit.png",
-      "imagen5": "./img/pendon_exit.png",
-      "descripcion": "Gráficas para soporte impreso y digital del Festival Exit",
+      "imagen2": "./img/fotos-pendones.png",
+      "imagen3": "./img/pendones-sidarte.png",
+      "descripcion": "Pendones impresos en PVC para cartelera del Teatro Sidarte",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseñar un cuadríptico, pendón, diplomas, invitación y gráficas para rrss del Festival Exit 2017",
+      "objetivo": "Diseñar pendón con la cartelera mensual de cada sala del teatro",
       "requerimientos": [
-        "El cuadriptico debe llevar portada con el nombre del festival, detalle de las obras a presentar, reseña del festival, ficha del equipo del teatro, logos de auspiciadores y media partners",
-        "El detalle de las obras debe incluir nombre, universidad que representa,fotografía,reseña, fecha, horario y sala en que se presenta."
+        "Los pendones deben incluir fotografía, temporada(fechas y horarios), sala en que se presenta, reseña, ficha técnica,logos del teatro, MINCAP. Medidas: 90 cm x 180 cm, soporte: PVC"
       ]
     },
     {
@@ -95,16 +92,15 @@
       "imagen": "./img/portada-programa-mensual.png",
       "imagen2": "./img/programa-sep-oct-sidarte-2.png",
       "imagen3": "./img/programa-sep-oct-sidarte.png",
-      "imagen4": "./img/programa-colectivo-zoo-1.png",
-      "imagen5": "./img/programa-colectivo-zoo-2.png",
-      "imagen6": "./img/programa-exit.png",
-      "imagen7": "./img/programa-exit-2.png",
-
-      "descripcion": "Programas 2017-2018 de obras del Teatro sidarte",
+      "imagen4": "./img/programa-exit.png",
+      "imagen5": "./img/programa-exit-2.png",
+      "imagen6": "./img/programa-colectivo-zoo-1.png",
+      "imagen7": "./img/programa-colectivo-zoo-2.png",
+      "descripcion": "Programas cartelera mensula de obras del Teatro sidarte",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseñar el programa mensual de las obras obras del Teatro Sidarte. Se realizararon cuadrípticos, trípticos y tarjetones para impresión",
+      "objetivo": "Diseñar un tr´ptico o cuadríptico con la cartelera de las obras del Teatro Sidarte",
       "requerimientos": [
-        "El cuadriptico debe llevar portada, detalle de las obras a presentar, valor de la entrada,ficha del equipo del teatro, logos de auspiciadores y media partners",
+        "El cuadriptico debe llevar portada, detalle de las obras a presentar, valores,ficha del equipo del teatro, logos de auspiciadores y media partners",
         "El detalle de las obras debe incluir nombre,fotografía,reseña, fecha, horario y sala en que se presenta."
       ]
     },
@@ -112,12 +108,14 @@
       "id": 7,
       "nombre": "Gráficas redes sociales Teatro Sidarte",
       "imagen": "./img/portada-graficas-web.png",
-      "imagen2": "./img/afiche-web-1.png",
-      "imagen3": "./img/afiche-web-2.png",
-      "imagen4": "./img/afiche-web-3.png",
-      "descripcion": "Diseño de gráficas para rrss",
+      "imagen2": "./img/muerte-explosion-afiche.png",
+      "imagen3": "./img/las-cosas-afiche.png",
+      "imagen4": "./img/los-hape-teatro.png",
+      "imagen5": "./img/laboratorio-actuacion.png",
+
+      "descripcion": "Diseño de gráficas para redes sociales",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
-      "objetivo": "Diseñar gráficas para la promoción de las obras en cartelera en redes sociales",
+      "objetivo": "Diseñar gráficas para la promoción de las obras en cartelera, talleres y eventos en redes sociales",
       "requerimientos": [
         "Diseño cuadrado, principalmete para Instagram con la foto de la obra, nombre, temporada, tiquetera, logos y página web del teatro."
       ]
@@ -126,8 +124,9 @@
       "id": 8,
       "nombre": "Gráficas para la compañia teatral La Mona Ilustre",
       "imagen": "./img/portada-monailustre.png",
-      "imagen2": "./img/dossier-male.png",
-      "imagen3": "./img/impresos_male.png",
+      "imagen2": "./img/dossier-male-1.png",
+      "imagen3": "./img/dossier-male-2.png",
+      "imagen4": "./img/impresos-male.png",
       "descripcion": "Dossier, pendón e invitación para la obra de teatro Malè",
       "tecnologias": ["Adobe Illustrator", "Adobe Photoshop"],
       "objetivo": "Diseñar dossier para la venta de funciones de la obra y diferentes piezas gráficas para promoción",
